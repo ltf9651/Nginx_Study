@@ -49,3 +49,4 @@ Nginx 多进程结构
 - 缓存被 Woker, Cache manager, Cache loader 使用
 - 进程间使用共享内存进行通讯
 - Woker 进程数与CPU数量一致，并将每一个Woker进程与某一个CPU核进行绑定，可以更好地使用CPU缓存
+
